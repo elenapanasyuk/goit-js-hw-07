@@ -34,4 +34,4 @@ const makeGalleryCard = ({ url, alt }) => {
 };
 const galleryCardsEl = document.querySelector('#gallery');
 const galleryCardsMarkup = images.map(makeGalleryCard).join('');
-galleryCardsEl.insertAdjacentHTML('beforeend', galleryCardsMarkup);
+galleryCardsEl.insertAdjacentHTML('afterbegin', galleryCardsMarkup);
