@@ -28,13 +28,3 @@ const makeIngredientsList = products => {
 };
 const elements = makeIngredientsList(ingredients);
 ingredientsEl.append(...elements);
-
-//const listItemEl = document.createElement('li');
-//listItemEl.textContent = ingredients[1];
-
-//ingredientsEl.appendChild(listItemEl);
-//console.log(listItemEl);
-//console.log(ingredientsEl);
-
-//listItemEl.textContent = products.forEach(product => product);
-//products.forEach(product => (product = listItemEl.textContent));
